@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@media (max-width: 767px) {
+  /* стили для xs-устройств */
+  header .header__wrapper nav {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    left: 0px;
+  }
+  header .header__wrapper .icon {
+    display: block;
+    color: white;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* стили для sm-устройств */
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  /* стили для md-устройств */
+}
+
+@media (min-width: 1200px) {
+  /* стили для lg-устройств */
+}
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,123 @@
+@media (max-width: 767px) {
+    /* стили для xs-устройств */
+    header
+    {
+        .header__wrapper{
+            nav{
+                overflow: auto;
+                position: absolute;
+                top: 85px;
+                width: 100%;
+                left: 0px;
+                background-color: $blue_bg;
+                font-size: 20px;
+                ul{
+                    display: none;
+                    li{
+                        &::after{
+                            content: '';
+                            display: block;
+                            background-color: #fff;
+                            width: 100%;
+                            height: 1px;
+                        }
+                    }
+                }
+                .show{
+                    display: block;
+                }
+            }
+            .icon{
+                display: block;
+                color: white;
+                font-size: 25px;
+            }
+        }
+        
+    }
+    main{
+        .main__menu{
+            .main__menu-choice{
+                flex-wrap: wrap;
+            }
+        }
+    }
+    footer{
+        .footer__info{
+            .footer-wrap{
+                flex-direction: column;
+                text-align: center;
+                h4{
+                    padding-top: 50px;
+                }
+                .social-icons{
+                    max-width: 100%;
+                    justify-content: space-around;
+                    .social-item{
+
+                    }
+                }
+                .footer-main{
+                    max-width: 100%;
+                }
+                .footer-sub{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width:1140px){
+    .orders{
+        .section__title{
+            flex-direction: column;
+            text-align: center;
+            .section__title-img{
+                text-align: center;
+            }
+            .section__title-text{
+                text-align: center;
+                margin: auto;
+                max-width: 100%;
+            }
+        }
+    }
+    .orders{
+        .section__title2{
+            flex-direction: column-reverse;
+            text-align: center;
+            .section__title-img2{
+                text-align: center;
+            }
+            .section__title-text2{
+                text-align: center;
+                margin: auto;
+                max-width: 100%;
+                padding-top: 0px;
+                h2{
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+}
+  @media (max-width: 991px) {
+    .statistics{
+        .section__stat{
+            padding-bottom: 130px;
+            .circles{
+                flex-direction: column;
+                .stat-circle{
+                    margin: auto;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+  }
+  @media (min-width: 991px) and (max-width: 1199px) {
+    /* стили для md-устройств */
+  }
+  @media (min-width: 1200px) {
+    /* стили для lg-устройств */
+  }
