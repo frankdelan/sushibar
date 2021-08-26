@@ -129,9 +129,22 @@ header .header__wrapper nav ul {
 
 header .header__wrapper nav ul a {
   line-height: 50px;
-  padding-left: 15px;
+  margin-left: 15px;
   color: white;
   font-size: 25px;
+  opacity: .7;
+}
+
+header .header__wrapper nav ul a:hover {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .4s;
+          transition-duration: .4s;
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  opacity: 1;
 }
 
 header .header__welcome {
@@ -638,6 +651,11 @@ footer .footer__info .footer-wrap .footer-sub ul li {
     display: block;
     color: white;
     font-size: 25px;
+  }
+  header .header__welcome .title {
+    max-width: 100%;
+    margin: 0 4%;
+    text-align: center;
   }
   main .main__menu .main__menu-choice {
     -ms-flex-wrap: wrap;

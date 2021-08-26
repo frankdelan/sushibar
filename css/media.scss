@@ -33,6 +33,13 @@
                 font-size: 25px;
             }
         }
+        .header__welcome{
+            .title{
+                max-width: 100%;
+                margin: 0 4%;
+                text-align: center;
+            }
+        }
         
     }
     main{
@@ -53,9 +60,6 @@
                 .social-icons{
                     max-width: 100%;
                     justify-content: space-around;
-                    .social-item{
-
-                    }
                 }
                 .footer-main{
                     max-width: 100%;
